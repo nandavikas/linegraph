@@ -17,18 +17,19 @@ var chart = new CanvasJS.Chart("chartContainer", {
 		type: "line",
       	indexLabelFontSize: 16,
 		dataPoints: [
-			{ y: 800 },
-			{ y: 414},
-			{ y: 520, indexLabel: "\u2191 highest",markerColor: "red", markerType: "triangle" },
-			{ y: 460 },
-			{ y: 450 },
-			{ y: 500 },
-			{ y: 480 },
-			{ y: 480 },
-			{ y: 410 , indexLabel: "\u2193 lowest",markerColor: "DarkSlateGrey", markerType: "cross" },
-			{ y: 500 },
-			{ y: 480 },
-			{ y: 510 }
+			{ x: 1755,y: new Date(2018, 05, 1)},
+			{ x: 1690,y: new Date(2018, 06, 1), indexLabel: "Trade war becomes official with US launching tarrifs of 25% on USD50 bn", markerColor: "DarkSlateGrey", markerType: "cross" },
+			{ x: 1790,y: new Date(2018, 07, 1) },
+			{ x: 1825,y: new Date(2018, 08, 1) },
+			{ x: 1795,y: new Date(2018, 09, 1), indexLabel: "Continued tarrif hike of 10% on additional USD200 bn China imports", markerColor: "DarkSlateGrey", markerType: "cross" },
+			{ x: 1720,y: new Date(2018, 10, 1), indexLabel: "Tabling of budget 2019", markerColor: "DarkSlateGrey", markerType: "cross" },
+			{ x: 1685,y: new Date(2018, 11, 1) },
+			{ x: 1683,y: new Date(2019, 00, 1), indexLabel: "Tarrif hike put on hold following trade truce in december", markerColor: "DarkSlateGrey", markerType: "cross" },
+			{ x: 1686,y: new Date(2019, 01, 1) ,indexLabel: "Fed indicates that it may stop rising rates",markerColor: "DarkSlateGrey", markerType: "cross" },
+			{ x: 1725,y: new Date(2019, 02, 1) },
+			{ x: 1625,y: new Date(2019, 03, 1) },
+			{ x: 1645,y: new Date(2019, 04, 1), indexLabel: "OPR cut by 25bps to 3%", markerColor: "DarkSlateGrey", markerType: "cross" },
+			{ x: 1610,y: new Date(2019, 05, 1), }
 		]
 	}]
 });
