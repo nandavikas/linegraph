@@ -10,6 +10,11 @@ var chart = new CanvasJS.Chart("chartContainer", {
 	title:{
 		text: "Fund Performance"
 	},
+	axisX: {
+		interval: 1,
+		intervalType: "month",
+		valueFormatString: "MMM"
+	},
 	axisY:{
 		includeZero: false
 	},
